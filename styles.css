@@ -1,0 +1,62 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Search section styles */
+  .vyhledavani {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #město {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1; /* Allow input to grow and fill remaining space */
+  }
+  
+  #btnVyhledat {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Results section styles */
+  .vysledky {
+    display: flex;
+    flex-direction: column; /* Stack results vertically */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .vysledky p {
+    margin-bottom: 5px;
+  }
+  
+  /* New styles for weather rows */
+  .radek-pocasi {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .radek-pocasi .btn-odstranit {
+    margin-top: 10px;
+    padding: 5px
+  }
